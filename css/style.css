@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+h1, h2, h3 { text-align: center; }
+
+h1 { margin-bottom: 70px; }
+
+body { background-color: RGB(85, 172, 238); }
+
+* { font-family: "Roboto", sans-serif; color: white; font-weight: 100; box-sizing: border-box; }
+
+.buttons { margin-top: 40px; display: flex; flex-direction: column; align-items: center; bottom: 200px; }
+
+.buttons a { text-decoration: none; text-align: center; font-size: 14px; border: 0.5px solid white; min-width: 200px; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; }
+
+.trigger { font-size: 14x; min-width: 200px; border: 0.5px solid white; background-color: transparent; margin-bottom: 10px; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; }
+
+.trigger:hover { cursor: pointer; }
+
+.cursor-wait { cursor: wait !important; }
+
+/*# sourceMappingURL=style.css.map */
