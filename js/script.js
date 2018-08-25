@@ -1,6 +1,7 @@
 var tweetLink = "https://twitter.com/intent/tweet?text=";
 var quoteUrl =
   "https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1";
+var prefix = "https://cors-anywhere.herokuapp.com/";
 
 // $.ajax({
 //     dataType: "json",
@@ -18,7 +19,7 @@ $(document).ready(function() {
 
 function getQuote() {
   cursor_wait();
-  $.getJSON(quoteUrl, createTweet);
+  $.getJSON(prefix + quoteUrl, createTweet)
 }
 
 function createTweet(input) {
